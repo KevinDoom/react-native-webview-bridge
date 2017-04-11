@@ -18,7 +18,7 @@
 #import <React/RCTConvert.h>
 #import <React/RCTEventDispatcher.h>
 #import <React/RCTLog.h>
-#import <Ract/RCTUtils.h>
+#import <React/RCTUtils.h>
 #import <React/RCTView.h>
 #import <React/UIView+React.h>
 #import <objc/runtime.h>
