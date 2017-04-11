@@ -12,9 +12,9 @@
 
 #import "RCTWebViewBridgeManager.h"
 
-#import "RCTBridge.h"
-#import "RCTUIManager.h"
-#import "RCTWebViewBridge.h"
+#import <React/RCTBridge.h>
+#import <React/RCTUIManager.h>
+#import <React/RCTWebViewBridge.h>
 #import "UIView+React.h"
 
 @interface RCTWebViewBridgeManager () <RCTWebViewBridgeDelegate>

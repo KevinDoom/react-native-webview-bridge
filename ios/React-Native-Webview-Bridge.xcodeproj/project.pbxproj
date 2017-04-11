@@ -227,11 +227,7 @@
 		4114DC561C187C3A003CD988 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = (
-					"$(inhereted)",
-					"$(SRCROOT)/../../../node_module/React/**",
-					"$(SRCROOT)/../../../node_modules/react-native/React/**",
-				);
+				HEADER_SEARCH_PATHS = "$(inhereted)";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -242,11 +238,7 @@
 		4114DC571C187C3A003CD988 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = (
-					"$(inhereted)",
-					"$(SRCROOT)/../../../node_module/React/**",
-					"$(SRCROOT)/../../../node_modules/react-native/React/**",
-				);
+				HEADER_SEARCH_PATHS = "$(inhereted)";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
